@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import JobModal from "./JobModal";
 
 import { useTheme } from "../context/Theme";
-import jobsData from "../data/JobsData";
+import jobsData from "../data/jobsData";
 
 const JobList = () => {
   const [filteredJobs, setFilteredJobs] = useState(jobsData);
