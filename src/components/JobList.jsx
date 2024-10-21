@@ -1,8 +1,9 @@
 // src/components/JobList.js
 import React, { useState } from "react";
 import JobModal from "./JobModal";
-import jobsData from "../data/JobsData";
+
 import { useTheme } from "../context/Theme";
+import jobsData from "../data/JobsData";
 
 const JobList = () => {
   const [filteredJobs, setFilteredJobs] = useState(jobsData);
